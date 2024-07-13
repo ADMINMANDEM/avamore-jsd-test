@@ -1,4 +1,4 @@
-Run ```python app.py``` to get the webpage going.
+Run ```python app.py``` to get the webpage going (requires Flask).
 It will be located at http://127.0.0.1:5000
 
 Part 1 is RedemptionModelScript.py

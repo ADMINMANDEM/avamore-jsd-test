@@ -1,0 +1,22 @@
+1. How would you suggest we value this property based on the data provided in the excel
+(“Sold Properties_Example”)?
+
+After removing outliers from a certain tolerance we can take an average of the "Sold Price / Size of Property (Sqft)"
+of similarly dated buildings that are also terraced then multiply that by 1200.
+This should give us a decently rounded estimate as those are the characteristics with the most weight on the price.
+
+2. What challenges or risks do you see in your proposed valuation method?
+
+There is still limited information on other factors of the properties. Attributes such as condition, parking 
+and public transport proximity aren't in the spreadsheet but could bear a lot of weight on the property.
+We haven't accommodated for inflation or other changes in the market landscape. 
+These events could cause large dips or fluctuations in the price of a property. The dataset is still limited and 
+we could increase the scope of years and adjust for inflation to increase our chance at finding outliers. 
+
+3. What further information would help you have greater confidence in your valuation of the
+property?
+
+Key facts about the property itself such as the aforementioned condition, parking, garden, insulation and window direction.
+We can actually use the location to find out proximity to important landmarks such as public transport, schools and parks.
+A professional opinion could help so we could look at other properties currently being listed in that area and see what 
+they're selling for.

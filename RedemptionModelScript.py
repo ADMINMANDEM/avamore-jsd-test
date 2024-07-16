@@ -114,4 +114,4 @@ def calculate_for_dates(openingPB, startDate, endDate):
     return accruedDailyInterest
 
 accruedInterest = calculate_for_dates(openingPB, DATE_OF_LOAN, REDEMPTION_STATEMENT_DATE)
-print("Total Interest Due: ", accruedInterest)
+print("Total Interest Due: ", round(accruedInterest, 2))

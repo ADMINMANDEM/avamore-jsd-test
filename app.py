@@ -90,7 +90,7 @@ def calculate_for_dates(openingPB, startDate, endDate, defaultPeriodStart, defau
         closingPB = openingPB + todaysDrawdown - todaysCapitalRepayment
         accruedDailyInterest += dailyInterest 
     
-    return accruedDailyInterest
+    return round(accruedDailyInterest, 2)
 
 if __name__ == '__main__':
     app.run(debug=True)
